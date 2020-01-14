@@ -11,3 +11,17 @@ callback_func = (parametro) => {
 }
 
 callback_func(alert);
+
+// otro callback seria ejemplo.
+suma = (a, b) => {
+  console.log(`la suma es: ${a + b}`);
+}
+
+proceso_suma = (value) => {
+  console.log('...ejecutando');
+  setTimeout(() => {
+    suma(5, 4);
+  }, 10000);
+} 
+
+proceso_suma(suma);
