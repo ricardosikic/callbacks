@@ -25,3 +25,9 @@ proceso_suma = (value) => {
 } 
 
 proceso_suma(suma);
+
+
+// otro tipo de callbacks son las funciones que responden a determinados eventos cuando se interactua con el DOM.
+
+// funcion llamada();
+// addEventListener('click', funcion());
